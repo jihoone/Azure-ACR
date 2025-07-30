@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        ACR_URL = 'jihoonacr.azurecr.io'
+        ACR_URL = 'jihoonacr-aucthhbfcshnhhbr.azurecr.io'
         IMAGE_NAME = 'myapp'
         CREDENTIALS_ID = 'acr-admin'
     }
